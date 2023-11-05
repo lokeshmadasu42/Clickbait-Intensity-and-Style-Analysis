@@ -13,7 +13,7 @@ attributes like timestamp, target paragraph, target keywords, class(clickbait/no
 | Field                                | Train  | Test   |
 |--------------------------------------|--------|--------|
 | Number of samples in the data       | 17,506 | 4,341  |
-| Number of click bait samples        | 4,281  | 1,104  |
+| Number of clickbait samples        | 4,281  | 1,104  |
 | Maximum sequence length              | 267    | 476    |
 | Minimum sequence length              | 1      | 1      |
 | Average sequence length              | 12     | 11     |
@@ -60,7 +60,3 @@ The following table contains the results of various models with various embeddin
     - Linear Regression(LR), Ridge Regression(RR), Gradient Boosted Regression(GBR), Random Forest Regression(RFR), Adaboost Regression(ABR)
 
 ![Clickbait Intensity Results](Images/CBT_Intensity_prediction_results.png)
-
-
-
-
