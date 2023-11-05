@@ -29,6 +29,7 @@ attributes like timestamp, target paragraph, target keywords, class(clickbait/no
 Mean Squared Error(MSE) is the main evaluation metric as we would be using regression techniques to measure the intensity of the clickbaityness of the text. MSE is computed using the following formula.
 
 ![MSE](Images/MSE.png)
+
 Here, Yi is ground truth value of sample-i, Yi^ is the value predicted by the model for sample-i and N is the total number of samples in the dataset.
 
 ### Median Absolute Error
@@ -41,17 +42,24 @@ For classifying the headline as clickbait or not we are going to use F1-Score me
 below.
 
 ![F1-score](Images/F1-score.png)
+
 Here, Precision quantifies the number of positive class predictions that actually belong to the positive class and Recall quantifies the number of positive class predictions made out of all positive examples in
 the dataset. Since we are predicting the intensity of the clickbait, which outputs a real number between 0 and 1, to compute the F1-Score, the headlines with intensity score greater than 0.5 are considered to be
 clickbait and the rest are considered as non clickbait.
 
 ### Accuracy
-![Accuracy][(Images/Accuracy.png)]
 Accuracy is one of the popular metric that is used for classification. It is defined as the percentage of samples that are correctly classified by the model and is given by the formula given below.
+
+![Accuracy](Images/Accuracy.png)
 
 ## Benchmarks
 
-![Clickbait Intensity Results](CBT_Intensity_prediction_results.png)
+The following table contains the results of various models with various embeddings. Finally, RoBERTa_Large + Ridge Regression(RR) combination performed better than all other combinations.
+
+*Note*: Please check the following regression models and their short forms.
+    - Linear Regression(LR), Ridge Regression(RR), Gradient Boosted Regression(GBR), Random Forest Regression(RFR), Adaboost Regression(ABR)
+
+![Clickbait Intensity Results](Images/CBT_Intensity_prediction_results.png)
 
 
 
