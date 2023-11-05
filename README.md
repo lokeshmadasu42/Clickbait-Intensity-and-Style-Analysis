@@ -60,3 +60,5 @@ The following table contains the results of various models with various embeddin
     - Linear Regression(LR), Ridge Regression(RR), Gradient Boosted Regression(GBR), Random Forest Regression(RFR), Adaboost Regression(ABR)
 
 ![Clickbait Intensity Results](Images/CBT_Intensity_prediction_results.png)
+
+For further details, please go through the slides and project report.
