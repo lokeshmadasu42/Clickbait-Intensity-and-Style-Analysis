@@ -17,8 +17,16 @@ attributes like timestamp, target paragraph, target keywords, class(clickbait/no
 | Maximum sequence length              | 267    | 476    |
 | Minimum sequence length              | 1      | 1      |
 | Average sequence length              | 12     | 11     |
+| Minimum Intensity                    | 0      | 0      |
+| Maximum Intensity                    | 1      | 1      |
+| Average Intensity                    | 0.327  | 0.331  |
 | Total number of words               | 206,521| -      |
 | Total number of unique words        | 39,231 | -      |
+
+
+## Benchmarks
+
+![Clickbait Intensity Results](CBT_Intensity_prediction_results.png)
 
 
 
